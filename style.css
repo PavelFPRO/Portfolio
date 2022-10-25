@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-color: bisque;
+    font-family: 'Ubuntu', sans-serif;
+}
+.link{
+    color: rgb(168, 118, 10);
+    transition: color 2s;
+}
+
+.link:hover {
+    color: rgb(200, 200, 41);
+  }
+  .header {
+    padding: 20px;
+    border-bottom: 3px solid rgb(171, 148, 1);
+    text-align: center;
+  }
+  
+  .header-link {
+    margin: 0 10px;
+  }
+  .main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+  }
+
+  .main2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    color: rgb(91, 89, 59);
+    text-align: center;
+  }
+  .img-wrapper {
+    background-color: rgb(255 231 182);
+    padding: 20px;
+    text-align: center;
+  }
+  .subtitle {
+    border-left: 5px solid rgb(160, 78, 51);
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+
+  }
+  .footer{
+    border-top: 3px solid rgb(171, 148, 1);
+    text-align: center;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .contact-item {
+    display: grid;
+    grid-template-columns: 30px 250px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+  }
+
+  .contact-item:hover {
+    color: rgb(180, 105, 13);
+  }
